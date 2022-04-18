@@ -43,9 +43,9 @@ When used in an object method, this refers to the object.
 In the example on top of this page, this refers to the person object.
 Because the fullName method is a method of the person object.
 
-# fullName : function() {
-#  return this.firstName + " " + this.lastName;
-# }
+fullName : function() {
+return this.firstName + " " + this.lastName;
+}
 
 *forEach*
 The forEach() method calls a function for each element in an array.
