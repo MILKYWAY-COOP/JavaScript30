@@ -4,14 +4,14 @@
 # 1. Day One
 
 # DrumRoll
-Learnt about the <kbd> element in HTML. - 
-  It represents a span of inline text denoting textual user input from a keyboard, 
-  voice input, or any other text entry device.
-The <kbd> tag is used to define keyboard input. The content inside is displayed in the browser's default monospace font.
+Learnt about the kbd element in HTML. -
+It represents a span of inline text denoting textual user input from a keyboard,
+voice input, or any other text entry device.
+The kbd tag is used to define keyboard input. The content inside is displayed in the browser's default monospace font.
+
 Also learnt about data-.
 
 *Other notable methods*
-
 *querySelector()*
 The querySelector() method returns the first element that matches a CSS selector.
 To return all matches (not only the first), use the querySelectorAll() instead.
