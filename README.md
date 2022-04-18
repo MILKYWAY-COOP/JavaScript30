@@ -4,7 +4,9 @@
 # 1. Day One
 
 # DrumRoll
-Learnt about the <kbd> element in HTML. - It represents a span of inline text denoting textual user input from a keyboard, voice input, or any other text entry device.
+Learnt about the <kbd> element in HTML. - 
+  It represents a span of inline text denoting textual user input from a keyboard, 
+  voice input, or any other text entry device.
 The <kbd> tag is used to define keyboard input. The content inside is displayed in the browser's default monospace font.
 Also learnt about data-.
 
