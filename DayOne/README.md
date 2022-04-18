@@ -7,22 +7,27 @@ The kbd tag is used to define keyboard input. The content inside is displayed in
 Also learnt about data-.
 
 *Other notable methods*
+
 *querySelector()*
+
 The querySelector() method returns the first element that matches a CSS selector.
 To return all matches (not only the first), use the querySelectorAll() instead.
 Both querySelector() and querySelectorAll() throw a SYNTAX_ERR exception if the selector(s) is invalid.
 
 *play()*
+
 The play() method starts playing the current audio or video.
 Tip: Use the pause() method to pause the current audio/video.
 
 *.add*
+
 The JavaScript Set add() method is used to add an element to Set object with a specified value. Each element must have a unique value.
 Syntax
 The add() method is represented by the following syntax:
 setObj.add(value)
 
 *this*
+
 In JavaScript, the this keyword refers to an object.
 Which object depends on how this is being invoked (used or called).
 The this keyword refers to different objects depending on how it is used:
@@ -43,6 +48,7 @@ return this.firstName + " " + this.lastName;
 }
 
 *forEach*
+
 The forEach() method calls a function for each element in an array.
 The forEach() method is not executed for empty elements.
 Syntax
