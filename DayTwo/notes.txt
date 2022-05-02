@@ -7,3 +7,11 @@ Date() -> Method in JS that returns the exact date and time of
 your current location.
 USAGE
 ....... const now = new Date()
+
+document.querySelector() -> Method in JS that returns the first
+element within the document that matches the specified selector, 
+or group selectors.
+
+style.transform -> Allows you to rotate, scale, move, skew elements.
+USAGE
+....... object.style.transform = "none|transform-functions|initial|inherit"
