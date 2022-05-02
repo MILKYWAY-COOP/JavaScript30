@@ -1,0 +1,9 @@
+setInterval() -> Method in JS that dictates after how long after
+how long a function runs
+USAGE
+..........setInterval(NameofFunction, timeinmiliseconds)
+
+Date() -> Method in JS that returns the exact date and time of
+your current location.
+USAGE
+....... const now = new Date()
