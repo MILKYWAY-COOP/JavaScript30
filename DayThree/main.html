@@ -20,9 +20,17 @@
   </div>
 
   <img src="https://source.unsplash.com/7bwQXzbF6KE/800x500">
-  </style>
 
   <script>
+    const inputs = document.querySelectorAll('.controls input');
+
+    function handleupdate() {
+      console.log(this.value);
+    }
+
+    inputs.forEach(input => input.addEventListener('change', handleupdate));
+    inputs.forEach(input => input.addEventListener('mousemove', handleupdate));
+
   </script>
 
 </body>
