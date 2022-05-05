@@ -12,7 +12,7 @@ body {
     box-sizing: inherit;
 }
 .panels {
-    min-height: 100vh;
+    min-height: 100px;
     overflow: hidden;
 }
 .panel {
