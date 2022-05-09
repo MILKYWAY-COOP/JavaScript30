@@ -19,7 +19,17 @@
       const cities = [];
       fetch(endpoint)
       .then(blob => blob.json())
-      .then(data => console.log(data))
+      .then(data => cities.push(...data))
+
+      function findMatches(wordToMarch, cities) {
+        return cities.filter(place => {
+          //here we need to figure out if the city or state matches
+          //what was searched
+          const regex = new RegExp(wordToMarch, 'gi');
+          return place.city.match()
+        });
+      }
+
     </script>
   </body>
 </html>
