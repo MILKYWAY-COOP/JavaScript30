@@ -7,3 +7,14 @@ otherrwise it returns false.
 The every() method tests whether all elements in the array
 pass the test implemented by the provided function. It 
 returns a Boolean value.
+
+The find() method returns the first element in the provided
+array that satisfies the provided testing function. If no
+values satify the testing function, undefined is returned.
+
+Spread syntax (...)
+The spread operator allows an iterable such as an array expression
+or string to be expanded in places where zero or more arguments
+(for function calls) or elements (for array literals) are expected, 
+or an object expression to be expanded in places where zero or 
+more key-value pairs (for object literals) are expected.
