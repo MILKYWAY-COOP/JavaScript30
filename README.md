@@ -7,3 +7,4 @@
 *4.Working with Array functions* <br>
 *5.Creating a photo gallery* <br>
 *6.Ajax Type Ahead* <br>
+*7. More array functions* <br>
