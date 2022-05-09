@@ -10,3 +10,10 @@ used for strokes.
 lines meet.
 .linecap -> Determines the shape used to draw the end points
 of lines.
+.beginPath() -> called before beginning each line, so that they
+may be drawn with different colors.
+.moveto() -> moves the path to the specified point in the 
+canvas, without creating a line.
+.lineTo() adds a new point and creates a line TO that point
+FROM the last specified point in the canvas (this method
+does not draw the line).
