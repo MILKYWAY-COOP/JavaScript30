@@ -9,3 +9,4 @@
 *6.Ajax Type Ahead* <br>
 *7.More array functions* <br>
 *8.Working with HTML canvas* <br>
+*9.Must know Dev Tricks* <br>
