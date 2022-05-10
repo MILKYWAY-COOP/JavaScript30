@@ -1,46 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Console Tricks!</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Console Tricks!</title>
+  </head>
+  <body>
+    <p onClick="makeGreen()">×BREAK×DOWN×</p>
 
-  <p onClick="makeGreen()">×BREAK×DOWN×</p>
+    <script>
+      const dogs = [
+        { name: 'Snickers', age: 2 },
+        { name: 'hugo', age: 8 }
+      ];
 
-  <script>
-    const dogs = [{ name: 'Snickers', age: 2 }, { name: 'hugo', age: 8 }];
+      function makeGreen() {
+        const p = document.querySelector('p');
+        p.style.color = '#BADA55';
+        p.style.fontSize = '50px';
+      }
 
-    function makeGreen() {
+      // Regular
+      console.log('Hello');
+
+      // Interpolated
+      console.log('Hello I am a %s string', '+po');
+      console.log(`Hello I am a string`);
+
+      // Styled
+      console.log('%c I am some great text', 'font-size:50px; background:red; text-shadow: 10px 10px 0 blue');
+
+      // warning!
+      console.warn('OH NOO');
+
+      // Error :|
+      console.error('Shit');
+
+      // Info
+      console.info('Fuck sake!');
+
+      // Testing
       const p = document.querySelector('p');
-      p.style.color = '#BADA55';
-      p.style.fontSize = '50px';
-    }
+      console.assert(p.classList.contains('Ouch'), 'That is wrong!');
 
-    // Regular
+      // clearing
 
-    // Interpolated
+      // Viewing DOM Elements
 
-    // Styled
+      // Grouping together
 
-    // warning!
+      // counting
 
-    // Error :|
-
-    // Info
-
-    // Testing
-
-    // clearing
-
-    // Viewing DOM Elements
-
-    // Grouping together
-
-    // counting
-
-    // timing
-
-  </script>
-</body>
+      // timing
+    </script>
+  </body>
 </html>
