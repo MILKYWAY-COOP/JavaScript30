@@ -5,7 +5,7 @@
     <title>Console Tricks!</title>
   </head>
   <body>
-    <p onClick="makeGreen()">×BREAK×DOWN×</p>
+    <p onClick="makeGreen()" class="P">×BREAK×DOWN×</p>
 
     <script>
       const dogs = [
@@ -27,7 +27,10 @@
       console.log(`Hello I am a string`);
 
       // Styled
-      console.log('%c I am some great text', 'font-size:50px; background:red; text-shadow: 10px 10px 0 blue');
+      console.log(
+        '%c I am some great text',
+        'font-size:50px; background:red; text-shadow: 10px 10px 0 blue'
+      );
 
       // warning!
       console.warn('OH NOO');
@@ -40,17 +43,43 @@
 
       // Testing
       const p = document.querySelector('p');
-      console.assert(p.classList.contains('Ouch'), 'That is wrong!');
+      console.assert(p.classList.contains('P'), 'That is wrong!');
 
       // clearing
+      console.clear();
 
       // Viewing DOM Elements
+      console.log(p);
+      console.dir(p);
 
+      console.clear();
       // Grouping together
-
+      dogs.forEach((dog) => {
+        console.groupCollapsed(`${dog.name}`);
+        console.log(`This is ${dog.name}`);
+        console.log(`${dog.name} is ${dog.age} years old`);
+        console.log(`${dog.name} is ${dog.age * 7} human-years old`);
+        console.groupEnd(`${dog.name}`);
+      });
       // counting
-
+      console.count('Steve');
+      console.count('Meg');
+      console.count('Steve');
+      console.count('Meg');
+      console.count('Steve');
+      console.count('Steve');
+      console.count('Meg');
+      console.count('Steve');
       // timing
+      console.time('Fetching data');
+      fetch('https://api.github.com/users/MuchenduOnIt')
+        .then((data) => data.json())
+        .then((data) => {
+          console.timeEnd('Fetching data');
+          console.log(data);
+        });
+
+      console.table(dogs);
     </script>
   </body>
 </html>
