@@ -3,6 +3,13 @@
   <head>
     <meta charset="UTF-8" />
     <title>Hold Shift to Check Multiple Checkboxes</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <!--
@@ -50,7 +57,32 @@
         <p>Don't forget to tweet your result!</p>
       </div>
     </div>
+    <script>
+      const checkboxes = document.querySelectorAll(
+        '.inbox input[type="checkbox"]'
+      );
 
-    <script></script>
+      let lastChecked;
+
+      const handleCheck = (e) => {
+        //check whether they had the shift key down
+        // and that they are checking it.
+        let inBetween = false;
+        if (e.shiftKey && this.checked) {
+          //do what we want
+          //loop over every checkbox
+          checkboxes.forEach((checkbox) => {
+            console.log(checkbox);
+            if (checkbox === this || checkbox === lastChecked) {
+              inBetween = !inBetween;
+            }
+          });
+        }
+        lastChecked = this;
+      };
+      checkboxes.forEach((checkbox) =>
+        checkbox.addEventListener('click', handleCheck)
+      );
+    </script>
   </body>
 </html>
