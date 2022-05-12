@@ -1,3 +1,16 @@
 using ternary operator in javascript.
 condition ? ifTrue : ifFalse
 
+Definition and Usage
+The parseFloat() method parses a value as a string and 
+returns the first number.
+Notes
+If the first character cannot be converted, NaN is returned.
+Leading and trailing spaces are ignored.
+Only the first number found is returned.
+
+Definition and Usage
+The currentTime property sets or returns the current 
+position (in seconds) of the audio/video playback.
+When setting this property, the playback will jump to 
+the specified position.
