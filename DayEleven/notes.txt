@@ -1,0 +1,3 @@
+using ternary operator in javascript.
+condition ? ifTrue : ifFalse
+
