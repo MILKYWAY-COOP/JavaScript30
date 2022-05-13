@@ -10,3 +10,6 @@
 *7.More array functions* <br>
 *8.Working with HTML canvas* <br>
 *9.Must know Dev Tricks* <br>
+*10.Using shift key to highlight check boxes* <br>
+*11.Custom HTML 5 video player* <br>
+*12.Key sequence detection* <br>
