@@ -1,0 +1,34 @@
+preventDefault()
+The preventDefault() method cancels the event if it is cancelable, 
+meaning that the default action that belongs to the event will not
+occur.
+For example, this can be useful when:
+>Clicking on a "Submit" button, prevent it from submitting a form.
+>Clicking on a link, prevent the link from following the URL
+
+INPUTS
+<input type="button">
+<input type="checkbox">
+<input type="color">
+<input type="date">
+<input type="datetime-local">
+<input type="email">
+<input type="file">
+<input type="hidden">
+<input type="image">
+<input type="month">
+<input type="number">
+<input type="password">
+<input type="radio">
+<input type="range">
+<input type="reset">
+<input type="search">  
+<input type="submit">
+<input type="tel">  
+<input type="text">
+<input type="time">
+<input type="url">
+<input type="week">
+
+The map() method in JavaScript creates an array by calling a 
+specific function on each element present in the parent array.
