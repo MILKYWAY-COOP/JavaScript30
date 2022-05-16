@@ -20,18 +20,19 @@ function populateList(plates = [], platesList) {
   platesList.innerHTML = plates
     .map((plate, i) => {
       return `
-            <li>
-                <input type="checkbox" data-index=${i}, id="items${i}" ${
+        <li>
+          <input type="checkbox" data-index=${i} id="item${i}" ${
         plate.done ? 'checked' : ''
-      }/>
-                <label for="items${i}">${plate.text}</label>
-            </li>
-        `;
+      } />
+          <label for="item${i}">${plate.text}</label>
+        </li>
+      `;
     })
     .join('');
 }
+
 function toggleDone(e) {
-  if (!e.target.matches('input')) return; //skip this unless it's an input
+  if (!e.target.matches('input')) return; // skip this unless it's an input
   const el = e.target;
   const index = el.dataset.index;
   items[index].done = !items[index].done;
