@@ -1,0 +1,16 @@
+Sorting an  Array
+The sort() method sorts an array alphabetically. The default
+sort order is ascending, built upon converting the elements
+into strings, then comparing their sequences of UTF-16 units
+values.
+
+The trim()
+This method removes whitespace from both ends of a string and 
+returns a new string, without modifying the original string.
+
+join()
+This method creates and returns a new string by concatenating 
+all of the elements in an array (or an array-like object), 
+separated by commas or a specified separator string. If the
+array has only one item, then that item will be returned without
+using the separator.
