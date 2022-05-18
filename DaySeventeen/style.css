@@ -5,7 +5,7 @@ body {
   background-size: cover;
   display: flex;
   align-items: center;
-  min-height: 100vh;
+  min-height: auto;
 }
 
 #bands {
@@ -15,19 +15,14 @@ body {
   width: 500px;
   margin: auto;
   padding: 0;
-  box-shadow: 0 0 0 20px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 0 0 15px rgba(243, 8, 8, 0.1);
 }
 
 #bands li {
-  border-bottom: 1px solid #efefef;
+  border-bottom: 2px solid #f29a9a;
   padding: 20px;
 }
 
 #bands li:last-child {
   border-bottom: 0;
-}
-
-a {
-  color: #ffc600;
-  text-decoration: none;
 }
