@@ -14,4 +14,7 @@
 *11.Custom HTML 5 video player* <br>
 *12.Key sequence detection* <br>
 *13.Slide In on scroll* <br>
-*14. Objects & Arrays. Reference VS Copy* <br>
+*14.Objects & Arrays. Reference VS Copy* <br>
+*15.Working with local storage & Event delegation* <br>
+*16.CSS shadow effects & JavaScript* <br>
+*17.Sorting arrays using .sort() .trim* <br>
