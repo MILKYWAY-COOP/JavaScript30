@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  font-family: sans-serif;
+  font-family: 'comfortaa', cursive;
   background: url('https://source.unsplash.com/nDqA4d5NL0k/2000x2000');
   background-size: cover;
   display: flex;
@@ -10,6 +10,7 @@ body {
 
 #bands {
   list-style: inside square;
+  list-style-type: disc;
   font-size: 20px;
   background: white;
   width: 500px;
