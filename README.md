@@ -18,3 +18,4 @@
 *15.Working with local storage & Event delegation* <br>
 *16.CSS shadow effects & JavaScript* <br>
 *17.Sorting arrays using .sort() .trim* <br>
+*18.Tally String times with Reduce* <br>
