@@ -1,0 +1,28 @@
+The querySelectorAll() method returns all elements in the 
+document that matches a specified CSS selector(s), as a 
+static NodeList object. The NodeList object represents a 
+collection of nodes. The nodes can be accessed by index 
+numbers. The index starts at 0.
+
+HTMLElement.dataset
+The dataset read-only property of the HTMLElement interface
+provides read/write access to custom data attributes (data-*)
+on elements. It exposes a map of strings(DOMStringMap) with
+an entry for each data-* attribute.
+
+split()
+This method splits a string into an array of substrings.
+Syntax
+string.split(separator, limit)
+Parameters
+separator => Optional. (A string or regular expression to 
+use for splitting. If omitted, an array with the original 
+string is returned.)
+limit => Optional. (An integer that limits the number of splits.
+Items after the limit are excluded.) 
+
+reduce()
+This method executes a reducer function for array elements.
+It returns a single value: the function's accumulated result.
+The reduce() method does not execute for empty array elements
+and does not change the original array.
