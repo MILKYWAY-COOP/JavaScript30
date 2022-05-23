@@ -19,3 +19,7 @@
 *16.CSS shadow effects & JavaScript* <br>
 *17.Sorting arrays using .sort() .trim* <br>
 *18.Tally String times with Reduce* <br>
+*19.Unreal Webcam Fun* <br>
+*20.Native Speech Recognition* <br>
+*21.GeoLocation based Speedometer and Compass* <br>
+*22.Follow along highlighter/link* <br>
