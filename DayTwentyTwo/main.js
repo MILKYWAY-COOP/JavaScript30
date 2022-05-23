@@ -4,7 +4,7 @@ const highLight = document.createElement('span');
 highLight.classList.add('highLight');
 document.body.append(highLight);
 
-function highLightlink() {
+function highLightLink() {
     const linkCoords = this.getBoundingClientRect();
     console.log(linkCoords);
     const coords = {
@@ -19,4 +19,4 @@ function highLightlink() {
     highLight.style.transform = `translate(${linkCoords.left}px, ${linkCoords.top}px)`;
 }
 
-triggers.forEach((a) => a.addEventListener('mouseenter', highLightlink));
+triggers.forEach((a) => a.addEventListener('mouseenter', highLightLink));
