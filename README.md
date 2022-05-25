@@ -24,3 +24,4 @@
 *21.GeoLocation based Speedometer and Compass* <br>
 *22.Follow along highlighter/link* <br>
 *23.The Voiceinator 5000* <br>
+*24.Sticky NavBar* <br>
