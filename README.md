@@ -25,3 +25,5 @@
 *22.Follow along highlighter/link* <br>
 *23.The Voiceinator 5000* <br>
 *24.Sticky NavBar* <br>
+*25. Event Capture, Propagation, Bubbling and Once* <br>
+*26. Stripe Follow Along Dropdown* <br>
