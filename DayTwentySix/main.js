@@ -42,3 +42,4 @@ triggers.forEach((trigger) =>
 triggers.forEach((trigger) =>
   trigger.addEventListener('mouseleave', handleLeave)
 );
+ll
