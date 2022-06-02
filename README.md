@@ -27,3 +27,6 @@
 *24.Sticky NavBar* <br>
 *25. Event Capture, Propagation, Bubbling and Once* <br>
 *26. Stripe Follow Along Dropdown* <br>
+*27. Click and Drag to Scroll* <br>
+*28. Video Speed Controller UI* <br>
+*29. Countdown Clock* <br>
